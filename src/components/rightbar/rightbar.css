@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rightbar{
+    flex: 3;
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 70px;
+    padding: 20px;
+    overflow-y: scroll;
+    transition: .3s;
+}
+
+
+.rightbar:hover::-webkit-scrollbar{
+    display: block;
+
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  display: none;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #3d3f5b;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(208, 207, 207);
+    cursor: pointer;
+
+}
+
+.rightbar .potaFoster{
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rightbar .potaFoster img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.rightbar .potaFoster span{
+    font-weight: 400;
+}
+
+.rightbar .rightbarImg img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.rightbar .sidebarContacts{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rightbar .sidebarContacts h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.rightbar .sidebarContacts .contact{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   position: relative;
+}
+
+.rightbar .sidebarContacts .contact .img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+ }
+
+ .rightbar .sidebarContacts .contact .contactOline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lawngreen;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    border: 2px solid #fff;
+ }
+
+ .rightbar .sidebarContacts .Ahmed {
+    margin-bottom: 50px;
+ }

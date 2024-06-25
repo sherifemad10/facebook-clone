@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    flex: 3;
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    padding: 20px;
+    overflow-y: scroll;
+    transition: .3s;
+}
+
+.sidebar:hover::-webkit-scrollbar{
+    display: block;
+
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  display: none;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #3d3f5b;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(208, 207, 207);
+    cursor: pointer;
+
+}
+
+
+.sidebarCon{
+    border-bottom: 1px solid #ffffff8e;
+}
+
+.sidebar .link{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.sidebar .link:hover{
+    background: #ffffffad;
+    border-radius: 10px;
+}
+
+.sidebar .linkIcons{
+    margin-right: 20px;
+    font-size: 25px;
+    color: #E7D1BB;
+    cursor: pointer;
+}
+
+.sidebar .titleLink{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar .showicon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff81;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sidebar .btnicon{
+    color: #fff;
+    font-weight: bold;
+}
+
+.sidebar .showMore{
+    margin-bottom: 30px;
+}
+
+
+
+.sidebar .sidebarContacts{
+    margin-top: 10px;
+}
+
+.sidebar .sidebarContacts .contact{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+}
+
+.sidebar .sidebarContacts .contact .img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+ }
+
+ .sidebar .sidebarContacts .Ahmed {
+    margin-bottom: 50px;
+ }
+

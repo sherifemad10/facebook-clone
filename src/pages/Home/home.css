@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 828px) {
+    .sidebar{
+        display: none;
+    }
+    .rightbar{
+        display: none;
+    }
+    .feed{
+        width: 80%;
+    }
+}
+
+@media (max-width: 547px) {
+    .createPost .uploadPost{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+}
+
+
+
